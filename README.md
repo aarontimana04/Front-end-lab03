@@ -43,5 +43,15 @@ Hacer clic en "Inicio" para ver la sección principal.
 Hacer clic en "Explorar" para cambiar a la sección de búsqueda.
 Estos casos de uso reflejan las principales interacciones que los usuarios pueden tener con la aplicación Music+.
 
+EJEMPLOS DE FUNCIONALIDADES E INTERACCIONES:
 
+![](./imagen-web/P1.jpeg)
+![](./imagen-web/P2.jpeg)
+![](./imagen-web/P3.jpeg)
+![](./imagen-web/P4.jpeg)
+![](./imagen-web/Morat.jpeg)
+![](./imagen-web/OS.jpeg)
+![](./imagen-web/Limpiar.jpeg)
+![](./imagen-web/JL.jpeg)
+![](./imagen-web/Ulti.jpeg)
 
