@@ -1,7 +1,7 @@
 # Front-end-lab03
 DBP - Readme
 
-Music+ es una página web alimentada por el API de Spotify que permite a los usuarios la exploración musical, descubrir artistas o información detallada sobre ellos, y acceder a recomendaciones de canciones y álbumes. Por otro lado, la aplicación brinda la posibilidad de filtrar por nombre de artistas en esta página y visualizar información relevante, como la popularidad del artista, seguidores, géneros musicales, y acceder a enlaces directos a Spotify. También proporciona detalles sobre las canciones más populares del artista y una lista de álbumes.
+Music+ es una página web alimentada por el API de Spotify que permite a los usuarios la exploración musical, descubrir artistas o información detallada sobre ellos, y conocer recomendaciones de canciones y álbumes. Por otro lado, la aplicación brinda la posibilidad de filtrar por nombre de artistas en esta página y visualizar información relevante, como la popularidad del artista, seguidores, géneros musicales, y acceder a enlaces directos a Spotify. También proporciona detalles sobre las canciones más populares del artista y una lista de álbumes.
 
 Casos de uso del sistema:
 
