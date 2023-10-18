@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music+</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav id="mainnav" role="navigation" class="nav-enabled">
+            <ul>
+                <li><a href="#" onclick="showHome()"><i class="fa fa-home"></i><span>Inicio</span></a></li>
+                <li><a href="#" onclick="showSearch()"><i class="fa fa-search"></i><span>Explorar</span></a></li>
+                <li><a href="#"><i class="fa fa-bars"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container" id="homeSection">
+      <div class="format">
+        <h1>Music+</h1>
+      </div>
+      <div class="format">    
+        <h2>Login In</h2>
+        <form action="" id="loginForm" onsubmit="return submitForm()">
+          <div class="search-container2">
+            <label for="fname">Username:</label><br>
+            <input type="text" id="Username" name="fname" placeholder="Ingresa el Username"><br>
+            <label for="lname">Password:</label><br>
+            <input type="text" id="Password" name="lname" placeholder="Ingresa el Password"><br><br>
+            <input type="submit" class="color2" value="Iniciar sesión">
+          </div>
+        </form>
+      </div> 
+    </section>
+    <section class="container" id="searchSection" style="display: none;">
+        <div class="header">
+          <h2>Music+</h2>
+          <div class="search-container">
+            <input type="text" id="artistInput" placeholder="Ingresa el nombre">
+            <button onclick="searchArtist()">Buscar</button>
+            <button onclick="clearPage()">Limpiar</button>
+          </div>
+        </div>
+
+        <div class="artist-info">
+            <div class="images">
+                <img id="artist-image-small" src="" alt="Artist Small Image">
+            </div>
+
+            <div class="profile">
+                <button id="artist-link" class="color" onclick="openInSpotify()">Open in Spotify</button>
+                <p><strong>Seguidores:</strong> <span id="followers-count"></span></p>
+                <p><strong>Popularidad:</strong> <span id="popularity-score"></span></p>
+                <p><strong>Género(s):</strong> <span id="genres-list"></span></p>
+            </div>
+        </div>
+        <div class="title">
+          <h2 id="artist-name"></h2>
+        </div>
+        <div class="centrar">
+          <div class="margen">
+            <div class="format">
+              
+              <strong>Top Tracks - Recomendaciones:</strong>
+              <ul id="top-tracks-list"></ul>
+            </div>
+            <div class="format">
+              
+              <strong>Álbumes del Artista:</strong>
+              <ul id="artist-albums-list"></ul>
+            </div>
+          </div>
+        </div>
+    </section>
+</body>
+
+</html>
